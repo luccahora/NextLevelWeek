@@ -27,6 +27,7 @@
 @media (min-width: 1550px){
     #page-home{
         height: 95vh;
+       
         background-position: 47vw bottom;
     }
 }
