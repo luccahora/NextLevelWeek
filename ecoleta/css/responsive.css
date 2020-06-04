@@ -31,3 +31,9 @@
         background-position: 47vw bottom;
     }
 }
+
+@media (max-height: 760px){
+    #page-home{
+        background-position-y: 200px ;
+    }
+}
