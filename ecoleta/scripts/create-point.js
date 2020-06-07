@@ -27,11 +27,9 @@ function getCities(event){
     fetch(urlMunicipio)
     .then( res => res.json() )
     .then( cities => {
-
         for( const city of cities){
             citySelect.innerHTML += `<option value="${city.id}">${city.nome}</option>`
         }
-
         citySelect.disabled = false;
     })
 }
