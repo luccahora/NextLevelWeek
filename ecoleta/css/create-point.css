@@ -133,7 +133,7 @@ form button:hover{
     display: flex;
     align-items: center;
 
-    color: var(--title-color)   ;
+    color: var(--title-color);
 }
 
 .items-grid li.selected{
