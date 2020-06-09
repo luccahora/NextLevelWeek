@@ -38,5 +38,6 @@ function getCities(event){
         citySelect.disabled = false;
     })
 }
+
 document.querySelector("select[name=uf]")
     .addEventListener("change", getCities)
